@@ -1,0 +1,451 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background:linear-gradient(40deg,orangered 70%, orange 60%,orangered);
+}
+.container{
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+/***START**/
+.home{
+    width:50px;
+    height: 50px;
+    position: absolute;
+    top: 100px;
+    left: 28px;
+    border-radius: 50px 0 0 50px;
+    border-left:1px solid orangered;
+    border-top:1px solid orangered;
+    border-bottom:1px solid orangered;
+    padding: 5px 0 5px 18px;
+    color: orangered;
+}
+.about{
+    width:50px;
+    height: 50px;
+    position: absolute;
+    top: 185px;
+    left: 28px;
+    border-radius: 50px 0 0 50px;
+    border-left:1px solid orangered;
+    border-top:1px solid orangered;
+    border-bottom:1px solid orangered;
+    padding: 15px 0 0 18px;
+    color: orangered;
+}
+
+.servic{
+    width:50px;
+    height: 50px;
+    position: absolute;
+    top: 295px;
+    left: 28px;
+    border-radius: 50px 0 0 50px;
+    padding: 5px 0 5px 18px;
+    color: orangered;
+    background: #ccc;
+
+}
+
+.portfolio{
+    width:50px;
+    height: 50px;
+    position: absolute;
+    top: 385px;
+    left: 28px;
+    border-radius: 50px 0 0 50px;
+    border-left:1px solid orangered;
+    border-top:1px solid orangered;
+    border-bottom:1px solid orangered;
+    padding: 5px 0 5px 18px;
+    color: orangered;
+}
+.something{
+    width:50px;
+    height: 50px;
+    position: absolute;
+    top: 490px;
+    left: 30px;
+    border-radius: 50px 0 0 50px;
+    border-left:1px solid orangered;
+    border-top:1px solid orangered;
+    border-bottom:1px solid orangered;
+    padding: 5px 0 0 15px;
+    color: orangered;
+
+}
+
+.contact{
+    width:50px;
+    height: 50px;
+    position: absolute;
+    top: 580px;
+    left: 28px;
+    border-radius: 50px 0 0 50px;
+    border-left:1px solid orangered;
+    border-top:1px solid orangered;
+    border-bottom:1px solid orangered;
+    padding: 10px 0 0 18px;
+    color: orangered;
+
+}
+/*_________________*________________________________*/
+.main_header{
+    width: 100%;
+}
+.header_content{
+    display: flex;
+    align-items:center;
+    flex-direction: row-reverse;
+    justify-content:space-evenly;
+    padding: 12px;
+}
+.search_fast{
+    margin-left: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.search_header{
+    width: 700px;
+    padding: 10px;
+    font-size: 14pt;
+    color: black;
+    border-radius:50px 0 0 50px;
+    text-align: center;
+}
+.button_search{
+    background: white;
+    color: #0008;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 0 50px 50px 0;
+}
+.logotipo{
+    margin-left: 100px;
+
+}
+.menu{
+    opacity: 0.8;
+    transform: rotateX(-100px);
+    transition: 0.3s ease-in-out all;
+}
+
+.menu:hover{
+    opacity: 1;
+}
+.navbar_menu{
+    position:fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 7%;
+    display:flex;
+    background-color: #540A85;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius:0 50px 50px 0;
+    overflow: hidden;
+}
+.lister_navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #540A85;
+}
+.list_navbar{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30pt;
+    padding: 27px 30px;
+}
+.anchor_navbar{
+    background:linear-gradient(40deg,orangered 70%, orange 60%,orangered);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+}
+/***________________________********____________________________*/
+.home_section{
+    width: 1264px;
+    height: 486px;
+    background:linear-gradient(50deg,#fff2,#fff2),url('../imagem/pexels-thisisengineering-3861958.jpg');
+    background-size: cover;
+    border-radius: 0 50px 0 0;
+    padding:50px;
+}
+.content_section_home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.darkblue{
+    color: #540A85;
+    font-weight: bold;
+}
+.heading_h3_section_home {
+    font-size: 22pt;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.heading_h1_section_home {
+    letter-spacing: 8px;
+    font-size: 24pt;
+    font-family: monospace;
+}
+.imagem_section_home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.imagem_section_home{
+    width: 70%;
+}
+.price_section_home{
+    padding: 10px;
+    box-shadow:0 0 15px  orangered,0 0 30px orangered,0 0 45px orangered;
+    background: rgba(255, 71, 5,.8);
+}
+.border-blue{
+    padding:10px 80px 10px 10px;
+    border: 2px solid #540A85;
+
+}
+.heading_h5_section_home{
+    font-size: 14pt;
+    font-weight: bolder;
+}
+.paragraph_home{
+    color: white;
+    text-align: left;
+    text-shadow: 2px 2px 2px #0006;
+}
+/**__________________***_________*/
+
+/*______________________*_______________________________*/
+
+.about_section{
+    width: 1264px;
+    height:  486px;
+    background:linear-gradient(50deg,#fff2,#fff2),url('../imagem/shutterstock_135052274.jpg');
+    background-size: cover;
+    border-radius: 0 50px 0 0;
+    padding:50px;
+}
+.content_section_about {
+    display: block;
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px orangered, 0 0 20px orangered, 0 0 30px orangered;
+    border: 1PX dashed #ddd9;
+}
+.card_section_about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background:#0007;
+    border: none;
+    height: 100%;
+}
+.card1_about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon_card_about{
+    background:linear-gradient(40deg,orangered 70%, orange 60%,orangered);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+    cursor: pointer;
+}
+.paragraph_card_about{
+    margin-top: 15px;
+    color: honeydew;
+    letter-spacing: 10px;
+    font: 100 14pt sans-serif;
+}
+/*________SERVICS______________*_____PAGE__________________________________*/
+
+.servic_section{
+    width: 1264px;
+    height:  486px;
+    background:#ccc;
+    border-radius: 0 50px 0 0;
+    padding:50px;
+}
+.content_section_home_servic {
+    display: block;
+    width: 100%;
+    height: 495px;
+    margin: 0 auto;
+}
+.igual{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.card_section_servic{
+    width: 40%;
+    height: 100%;
+    padding: 10px 0;
+}
+
+.heading_servic_h1{
+    margin-bottom: 28px;
+    letter-spacing: 8px;
+    font-size: 24pt;
+    font-family: monospace;
+}
+.card_servic{
+    background: linear-gradient(to bottom right, #0FF6,#F008),url('../imagem/pessoas-daltonicas_enchroma1_blog-da-engenharia.jpg');
+    background-size: cover;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card_servic_card2{
+    background: linear-gradient(to bottom right, #0FF6,#F008),url('../imagem/tres-jovens-lindas-meninas-sorridentes-em-roupas-de-jeans-casual-de-verao-na-moda-mulheres-sexy-despreocupadas-posando-modelos-positivos-em-oculos-de-sol_158538-4730.webp');
+    background-size: cover;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.heading-h2-card_servic{
+    text-align: left;
+    margin-bottom: 50px;
+    color: honeydew;
+    text-shadow: 2px 2px 5px orangered;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card1_servic{
+    display: flex;
+    flex-direction: column;
+}
+.heading_h3_servic{
+    color: honeydew;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 5px darkmagenta;
+    margin-bottom: 10px;
+}
+.card_div_price{
+    background:white;
+    border-radius: 10px;
+    width: 165px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.card_div_price_h3{
+    text-align: center;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: orangered;
+}
+.tired{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.tired_h4{
+    font-size: 13pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: #540A85;
+}
+.tired_paragraph{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: #540A85;
+}
+.card2_servic{
+    background:white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.heading_servic_h1_card2{
+    text-align:left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tired_paragraph-card2{
+    text-align: left;
+    font-size: 10pt;
+    color: #0009;
+    margin: 5px 0;
+}
+.button_servic_card{
+    background: #540A85;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    border-radius: 5px;
+}
+.anchor_link_servic{
+    color: orangered;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.icon_servic_card{
+    color: orangered;
+}
+/*______________________*_______________________________*/
+
+.portfolio_section{
+    width: 1264px;
+    height:  486px;
+    background:linear-gradient(50deg,#fff2,#fff2),url('../imagem/2.jpg');
+    background-position: center;
+    background-size:cover;
+    border-radius: 0 50px 0 0;
+    padding:50px;
+}
+
+
+/*______________________*_______________________________*/
+
+.something_section{
+    width: 1264px;
+    height:  486px;
+    background:linear-gradient(50deg,#fff2,#fff2),url('../imagem/fone-de-ouvido-Beatriz-Zanut-Engenharia-360-3.jpg');
+    background-position: center;
+    background-size:cover;
+    border-radius: 0 50px 0 0;
+    padding:50px;
+}
+
+
+
+/*______________________*_______________________________*/
+
+.contact_section{
+    width: 1264px;
+    height:  486px;
+    background:linear-gradient(50deg,#fff2,#fff2),url('../imagem/pexels-fauxels-3183197.jpg');
+    background-position:center;
+    background-size:cover;
+    border-radius: 0 50px 0 0;
+    padding:50px;
+}
+
