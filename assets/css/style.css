@@ -17,95 +17,21 @@ body{
 .home{
     width:50px;
     height: 50px;
-    position: absolute;
-    top: 100px;
-    left: 28px;
-    border-radius: 50px 0 0 50px;
-    border-left:1px solid orangered;
-    border-top:1px solid orangered;
-    border-bottom:1px solid orangered;
     padding: 5px 0 5px 18px;
     color: orangered;
-}
-.about{
-    width:50px;
-    height: 50px;
-    position: absolute;
-    top: 185px;
-    left: 28px;
-    border-radius: 50px 0 0 50px;
-    border-left:1px solid orangered;
-    border-top:1px solid orangered;
-    border-bottom:1px solid orangered;
-    padding: 15px 0 0 18px;
-    color: orangered;
-}
-
-.servic{
-    width:50px;
-    height: 50px;
-    position: absolute;
-    top: 295px;
-    left: 28px;
-    border-radius: 50px 0 0 50px;
-    padding: 5px 0 5px 18px;
-    color: orangered;
-    background: #ccc;
-
-}
-
-.portfolio{
-    width:50px;
-    height: 50px;
-    position: absolute;
-    top: 385px;
-    left: 28px;
-    border-radius: 50px 0 0 50px;
-    border-left:1px solid orangered;
-    border-top:1px solid orangered;
-    border-bottom:1px solid orangered;
-    padding: 5px 0 5px 18px;
-    color: orangered;
-}
-.something{
-    width:50px;
-    height: 50px;
-    position: absolute;
-    top: 490px;
-    left: 30px;
-    border-radius: 50px 0 0 50px;
-    border-left:1px solid orangered;
-    border-top:1px solid orangered;
-    border-bottom:1px solid orangered;
-    padding: 5px 0 0 15px;
-    color: orangered;
-
-}
-
-.contact{
-    width:50px;
-    height: 50px;
-    position: absolute;
-    top: 580px;
-    left: 28px;
-    border-radius: 50px 0 0 50px;
-    border-left:1px solid orangered;
-    border-top:1px solid orangered;
-    border-bottom:1px solid orangered;
-    padding: 10px 0 0 18px;
-    color: orangered;
-
 }
 /*_________________*________________________________*/
 .main_header{
     width: 100%;
+    height: 100%;
 }
 .header_content{
     display: flex;
     align-items:center;
     flex-direction: row-reverse;
-    justify-content:space-evenly;
-    padding: 12px;
+    justify-content:space-around;
+    width: 100%;
+    min-height: 10vh;
 }
 .search_fast{
     margin-left: 70px;
@@ -129,38 +55,24 @@ body{
     padding: 5px;
     border-radius: 0 50px 50px 0;
 }
-.logotipo{
-    margin-left: 100px;
-
-}
-.menu{
-    opacity: 0.8;
-    transform: rotateX(-100px);
-    transition: 0.3s ease-in-out all;
-}
-
-.menu:hover{
-    opacity: 1;
-}
 .navbar_menu{
     position:fixed;
     top: 0;
     left: 0;
-    height: 100%;
-    width: 7%;
     display:flex;
-    background-color: #540A85;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content:flex-end;
+    height: 100vh;
+    width: 7%;
     border-radius:0 50px 50px 0;
-    overflow: hidden;
+    background-color: #540A85;
 }
 .lister_navbar{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    background-color: #540A85;
+    justify-content: space-around;
+    height: 100%;
 }
 .list_navbar{
     display:flex;
@@ -177,12 +89,13 @@ body{
 }
 /***________________________********____________________________*/
 .home_section{
-    width: 1264px;
-    height: 486px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
     background:linear-gradient(50deg,#fff2,#fff2),url('../imagem/pexels-thisisengineering-3861958.jpg');
     background-size: cover;
     border-radius: 0 50px 0 0;
-    padding:50px;
 }
 .content_section_home{
     display: flex;
@@ -192,7 +105,7 @@ body{
 }
 .darkblue{
     color: #540A85;
-    font-weight: bold;
+    font-weight: bolder;
 }
 .heading_h3_section_home {
     font-size: 22pt;
@@ -222,6 +135,7 @@ body{
 }
 .border-blue{
     padding:10px 80px 10px 10px;
+    border-radius: 10px;
     border: 2px solid #540A85;
 
 }
@@ -239,20 +153,20 @@ body{
 /*______________________*_______________________________*/
 
 .about_section{
-    width: 1264px;
-    height:  486px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
     background:linear-gradient(50deg,#fff2,#fff2),url('../imagem/shutterstock_135052274.jpg');
     background-size: cover;
     border-radius: 0 50px 0 0;
-    padding:50px;
 }
 .content_section_about {
     display: block;
     width: 100%;
-    height: 500px;
+    height: 89vh;
     margin: 0 auto;
-    box-shadow: 0 0 10px orangered, 0 0 20px orangered, 0 0 30px orangered;
-    border: 1PX dashed #ddd9;
+    border: 1px dashed #ddd9;
 }
 .card_section_about{
     display: flex;
@@ -284,11 +198,12 @@ body{
 /*________SERVICS______________*_____PAGE__________________________________*/
 
 .servic_section{
-    width: 1264px;
-    height:  486px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
     background:#ccc;
     border-radius: 0 50px 0 0;
-    padding:50px;
 }
 .content_section_home_servic {
     display: block;
@@ -314,12 +229,13 @@ body{
     font-family: monospace;
 }
 .card_servic{
-    background: linear-gradient(to bottom right, #0FF6,#F008),url('../imagem/pessoas-daltonicas_enchroma1_blog-da-engenharia.jpg');
-    background-size: cover;
-    padding: 20px;
-    border-radius: 5px;
     display: flex;
     flex-direction: column;
+    padding: 20px;
+    border-radius: 5px;
+    background: linear-gradient(to bottom right, #0FF6,#F008),url('../imagem/pessoas-daltonicas_enchroma1_blog-da-engenharia.jpg');
+    background-size: cover;
+   
 }
 
 .card_servic_card2{
@@ -413,39 +329,38 @@ body{
 /*______________________*_______________________________*/
 
 .portfolio_section{
-    width: 1264px;
-    height:  486px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
     background:linear-gradient(50deg,#fff2,#fff2),url('../imagem/2.jpg');
     background-position: center;
     background-size:cover;
     border-radius: 0 50px 0 0;
-    padding:50px;
 }
-
-
 /*______________________*_______________________________*/
 
 .something_section{
-    width: 1264px;
-    height:  486px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
     background:linear-gradient(50deg,#fff2,#fff2),url('../imagem/fone-de-ouvido-Beatriz-Zanut-Engenharia-360-3.jpg');
     background-position: center;
     background-size:cover;
     border-radius: 0 50px 0 0;
-    padding:50px;
+
 }
-
-
-
 /*______________________*_______________________________*/
 
 .contact_section{
-    width: 1264px;
-    height:  486px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
     background:linear-gradient(50deg,#fff2,#fff2),url('../imagem/pexels-fauxels-3183197.jpg');
     background-position:center;
     background-size:cover;
     border-radius: 0 50px 0 0;
-    padding:50px;
 }
 
